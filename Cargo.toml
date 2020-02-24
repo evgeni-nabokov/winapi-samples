@@ -1,0 +1,11 @@
+[package]
+name = "winapi_samples"
+version = "0.1.0"
+authors = ["Evgeni Nabokov <evgeni.nabokov@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+winapi = { version = "0.3.8", features = ["winuser"] }
+widestring = "0.4.0"
